@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drinks menu</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+        main{
+            /* background-image: url("images/bottle.jpg");  */
+            background-color: #ffffff;
+            background-position: bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border: 2px solid #be4f2d;
+            border-radius: 5px;
+            padding-left: 0;
+        }
+        header{
+            background-color: #be4f2d;
+            color: #f2e3c4;
+        }
+        .drinkList{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        a{
+            color: #f2e3c4;
+        }
+        ul li a:hover{
+            color: #f3eae5;
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li div{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            width: 50%;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>IPO restaurant</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">STARTER</a></li>
+          <li><a href="mainDish.html">MAIN COURSE</a></li>
+          <li><a href="dessert.html">DESSERT</a></li>
+          <li><a href="drinks.html">DRINKS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main style="padding: 0.3rem 0 1rem;">
+      <!-- <h2>FOOD MENU</h2> -->
+      <h2 class="starter">Drinks</h2>
+
+      <div style="padding: 0 0.5rem;">
+        <ul class="drinkList">
+            <li>
+                <div class="drinkName">
+                    <h3>CLASSIC MOJITO</h3>
+                    <span>Rum infused with fresh lime, mint and sugar</span>
+                </div>
+                <p>#5000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>MANHATTAN</h3>
+                    <span>White rum mixed with whiskey and sugar</span>
+                </div>
+                <p>#6000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>ROYAL MARTINI</h3>
+                    <span>Freshly brewed espresso mixed with rum and lime</span>
+                </div>
+                <p>#8000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>WHISKEY SOUR</h3>
+                    <span>Fresh lemon juice infused premium whiskey and lime</span>
+                </div>
+                <p>#10000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>DAIQUIRI</h3>
+                    <span>Rum, lemon juice and sugar mixed with apple</span>
+                </div>
+                <p>#8000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>ICED CARAMEL MACCHIATO</h3>
+                    <span>Expresso poured over iced milk with vanilla syrup and cramel drizzle</span>
+                </div>
+                <p>#10000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>CLASSIC MARGARITA</h3>
+                    <span>Tequila mixed with sugar and lime</span>
+                </div>
+                <p>#15000</p>
+            </li>
+            <li>
+                <div class="drinkName">
+                    <h3>GIM GIMLET</h3>
+                    <span>Premium gin with lime and tequila</span>
+                </div>
+                <p>#12000</p>
+            </li>
+        </ul>
+      </div>
+
+
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  background-color: #ffffff;
+  margin: 3rem 20rem;
+  border-radius: 2rem;
+  color: #55321d;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  background-color: #f2e3c4;
+  padding: 1rem 0 0;
+  margin-bottom: 2px;
+  border-radius: 2rem 2rem 0 0;
+}
+h1 {
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+a{
+    color: #55321d;
+}
+ul li a:hover{
+    font-size: 18px;
+    cursor: pointer;
+    color: #be4f2d;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.starter{
+    font-family: "Pacifico", cursive;
+}
+main {
+  background-color: #f2e3c4;
+  padding: 0.3rem 4rem;
+  margin: auto;
+}
+.mainList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.item div {
+  text-align: center;
+}
+h3{
+    letter-spacing: 0.2rem;
+}
+
+button {
+  background-color: #55321d;
+  color: #b99b70;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+button:hover{
+    background-color: #b99b70;
+    color: #55321d;
+    font-size: 16px;
+}
+
+
+/* MAINDISH CSS */
+.show{
+    list-style-type: disc;
+    align-items: start;
+    flex-direction: column;
+}
+.show div{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.section-one, .section-two{
+    display: flex;
+    gap: 2rem;
+}
+.section-one div, .section-two div{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.sides{
+    border-bottom: 1px solid #be4f2d;
+    font-family: "Pacifico", cursive;
+}
+
+
+
+/* DESSERT CSS */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
